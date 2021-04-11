@@ -345,3 +345,61 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+@media only screen and (min-width: 720px) {
+div.menu{
+    display: none;
+}
+
+}
+@media only screen and (max-width: 720px) {
+    body {
+        width: 120vw;
+    }
+    div.nav-bar{
+        justify-content:space-between;
+    }
+    ul.nav-links {
+        display: none;
+    }
+    div.hero-section {
+        padding: 5rem;
+    }
+    div.hero-background-pos {
+        display: none;
+    }
+    div.background {
+        height: 380px;
+        padding: 15px 30px;
+    }
+    div.snapshot-team p {
+        padding: 0.8rem 0.8rem 0 0.8rem;
+    }
+    div.snapshot-box-content {
+        display: block;
+        align-items: center;
+    }
+    div.box{
+        margin-top: 1rem;
+    }
+    div.footer-input {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3rem;
+    }
+    
+    input[type="text"] {
+        width: 100%;
+    }
+    
+    input[type="email"] {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    textarea {
+        width: 100%;
+    }
+    div.footer-textarea {
+        padding-top: 1rem;
+    }
+  }

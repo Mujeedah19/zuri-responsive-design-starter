@@ -16,6 +16,7 @@
             <li><a href="#">Gallery</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
+        <div class="menu"><img src="images/menu.png" alt="logo"></div>
     </div>
 
     <!-- Hero section -->
@@ -44,15 +45,15 @@
     </div>
     <div class="snapshot-box">
         <div class="snapshot-box-content">
-            <div class="box1">
+            <div class="box box1">
                     <div class="circle"></div>
                     <h5>Linda, Manager</h5>
             </div>
-            <div class="box1">
+            <div class="box box1">
                 <div class="circle"></div>
                 <h5>Linda, Manager</h5>
             </div>
-            <div class="box3">
+            <div class="box box3">
                 <div class="circle"></div>
                 <h5>Linda, Manager</h5>
             </div>
@@ -103,5 +104,18 @@
         </div>
         <h6>Copyright &copy; 2021 Zuri Training.</h6>
     </div>
+    <script>
+        let menuBtn = document.querySelector(".menu");
+        let links = document.querySelector("ul.nav-links");
+
+        menuBtn.addEventListener("click", () => {
+        if (links.style.display ===""){
+            links.style.display ==="block";
+        }else{
+            links.style.display ==="";
+        }
+        });
+        
+    </script>
 </body>
 </html>
